@@ -35,4 +35,19 @@ public class Types {
 	public static final int ETHERNET_MODE_NONE = -1;
 	public static final int ETHERNET_MODE_STATIC = 1;
 	public static final int ETHERNET_MODE_DHCP = 2;
+
+	// 获取文件列表的类型
+	public static final int FILE_ONLY_AUDIO = 0;
+	public static final int FILE_ONLY_VIDEO = 1;
+	public static final int FILE_ALL = 2;
+
+	// 连接受限类型
+	/**
+	 * 连接不受限，默认值
+	 */
+	public static final int CONN_OPEN = 0;
+	/**
+	 * 连接受限
+	 */
+	public static final int CONN_LIMIT = 1;
 }
