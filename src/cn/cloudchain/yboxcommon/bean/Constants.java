@@ -82,6 +82,10 @@ public class Constants {
 		public static final String CONN_TYPE = "conn";
 		public static final String BATTERY = "battery";
 		public static final String CLIENTS_UPDATE_TIME = "clients_update_time";
+		public static final String TYPE = "type";
+		public static final String VERSION = "version";
+		public static final String MID_NAME = "midname";
+		public static final String MID_VERSION = "midver";
 	}
 	
 	public static interface Cloud {
